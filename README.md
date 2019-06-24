@@ -66,3 +66,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Start the json server before  starting the project server
+Steps:
+Install json-server globally:
+$ npm install json-server -g
+
+from the location where the bugDB.json is kept, run from node.js command prompt and run the server
+$ json server bugDB.json -p <port of your choice>
